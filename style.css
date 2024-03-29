@@ -1,0 +1,102 @@
+*,
+html {    
+    margin: 0;
+    padding: 0;
+}
+
+.body-container{
+
+}
+
+.navbar {
+    height: 10vh;
+ background-color: #6600ff;
+ width: 100%;
+ height: 100px;
+}
+
+.ul-navbar {
+display:flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: white;
+font-size: 25px;
+}
+
+.li-navbar:hover {
+    background-color: #006633;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 6px;
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+    font-style: inherit;
+    
+}
+
+.container-content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.img-content{
+    width: 240px;
+    height: 320px;
+}
+
+.a-home{background-color: white;
+    color: black;
+    width: 100% ;
+    height: 15vh;
+    display: contents;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.a-nama{
+    background-color: aquamarine;
+}
+
+.a-identitas{
+    width: 60%;
+    height: 40%;
+    font-size: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center; 
+}
+
+.img-medsos{
+width: 300px;
+height: 280px;
+}
+
+.container-footer{
+height: 10vh;
+background-color: 6600ff;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+.h1-footer{
+color: white;
+  font-size: 20px;
+  font-style: normal;
+}
